@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 import 'package:insulto_api/src/models/insulto_models.dart';
 
 class InsultoProvider{
-  final _url = 'https://evilinsult.com/generate_insult.php';
+  final _url = 'https://evilinsult.com/';
   final _http = Dio();
 
 Future insulto() async{
